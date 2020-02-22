@@ -10,14 +10,14 @@ public class Animal {
     private String boca;
     private String extremidades;
     private int edad;
-    private String Tipodeanimal;
+    private String tipodeAnimal;
 
     public String getTipodeanimal() {
-        return Tipodeanimal;
+        return tipodeAnimal;
     }
 
     public void setTipodeanimal(String Tipodeanimal) {
-        this.Tipodeanimal = Tipodeanimal;
+        this.tipodeAnimal = Tipodeanimal;
     }
 
     public String getExtremidades() {
