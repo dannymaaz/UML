@@ -9,16 +9,6 @@ public class Animal {
     private String ojos;
     private String boca;
     private String extremidades;
-    private int edad;
-    private String tipodeAnimal;
-
-    public String getTipodeanimal() {
-        return tipodeAnimal;
-    }
-
-    public void setTipodeanimal(String Tipodeanimal) {
-        this.tipodeAnimal = Tipodeanimal;
-    }
 
     public String getExtremidades() {
         return extremidades;
@@ -26,14 +16,6 @@ public class Animal {
 
     public void setExtremidades(String extremidades) {
         this.extremidades = extremidades;
-    }
-
-    public int getEdad() {
-        return edad;
-    }
-
-    public void setEdad(int edad) {
-        this.edad = edad;
     }
 
     public Animal(String ojos, String boca) {
